@@ -24,34 +24,34 @@
 
 // console.log(quoteFinder("is"));
 
-const employee = {
-    firstName: "Rob",
-    lastName: "Bandstra",
-    role: "student",
-    accountNumber: "894533218",
-    isManager: false,
-    titles: ["Junior Developer", "Hey You", "Bobert"],
-    accolade: {
-        title: "Employee of the Year",
-        dateEarned: "1/2/2020",
-        expires: "12/21/2020",
-        isCool: true
-    }
-}
+// const employee = {
+//     firstName: "Rob",
+//     lastName: "Bandstra",
+//     role: "student",
+//     accountNumber: "894533218",
+//     isManager: false,
+//     titles: ["Junior Developer", "Hey You", "Bobert"],
+//     accolade: {
+//         title: "Employee of the Year",
+//         dateEarned: "1/2/2020",
+//         expires: "12/21/2020",
+//         isCool: true
+//     }
+// }
 
 // console.log(employee.firstName);
 // const keyToCheck = "accolade";
 
 // console.log(employee[keyToCheck]["isCool"])
 
-const employeeStatus = (employee) => {
-    if (employee.firstName[0] === "R") {
-        employee.status = "vip"
-    } else {
-        employee.status = "peasant"
-    }
-}
+// const employeeStatus = (employee) => {
+//     if (employee.firstName[0] === "R") {
+//         employee.status = "vip"
+//     } else {
+//         employee.status = "peasant"
+//     }
+// }
 
-employeeStatus(employee);
+// employeeStatus(employee);
 
-console.log(employee);
+// console.log(employee);
